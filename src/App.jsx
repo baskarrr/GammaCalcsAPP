@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Plus, X, TrendingUp } from 'lucide-react';
-import { Analytics } from '@vercel/analytics/react';
+import { Analytics } from "@vercel/analytics/next";
 
 export default function GammaBandsCalculator() {
   const [underlyings, setUnderlyings] = useState(['Crude', 'ES', 'NQ', 'GC', 'BTC']);
