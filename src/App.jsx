@@ -180,7 +180,7 @@ export default function GammaBandsCalculator() {
               </div>
 
               <div>
-                <div className="text-orange-500 text-xs mb-1 font-bold">RR SKEW (%)</div>
+                <div className="text-orange-500 text-xs mb-1 font-bold">RR (%) (Skew Adjustment)</div>
                 <input
                   type="number"
                   value={rrSkew}
